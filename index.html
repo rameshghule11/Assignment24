@@ -8,6 +8,8 @@
 
 body{
     background-color: blanchedalmond;
+    margin: 0px;
+    padding: 0px;
 }
 .page-heading{
     text-align: center;
@@ -36,20 +38,17 @@ body{
    }
 
 
+   .navbar{
+        background-color: black;
+    display: flex;
+    align-items: center;
+    padding: 5px 40px ;
+    color: #fff;
 
-  
+    }
 
-  /* Mobile Device */
-    @media screen and (max-width:500px) {
-
-        .page-heading{
-            font-size: 40px;
-         }
-
-        .main-img{
-            width: 400px;
-        }
-
+    .dog-emg{
+        font-size: 40px;
     }
 
     .dog{
@@ -64,6 +63,43 @@ body{
         flex-wrap: wrap;
 
     }
+    .menu{
+        margin-left: 150px;
+        display: flex;
+    align-items: center;
+    color: #fff;
+
+    }
+  .menu-iteam{
+    margin-right: 20px;
+    cursor: pointer;
+    color: #fff;
+    display: flex;
+    align-items: center;
+  }
+  .menu-icon{
+    height: 30px;
+    width: 30px;
+    margin-right: 5px;
+
+  }
+
+  /* Mobile Device */
+    @media screen and (max-width:500px) {
+
+        .page-heading{
+            font-size: 40px;
+         }
+
+        .main-img{
+            width: 400px;
+        }
+
+    }
+
+
+    
+
 
     /* Tablet Device */
     @media screen and (min-width:501px) and (max-width:768px) {
@@ -83,6 +119,40 @@ body{
 
 </head>
 <body>
+
+    <div class="navbar">
+
+        <span class="dog-emg">🐕Pet-Store</span>
+
+        <div class="menu">
+            <a href="./pages/golden.html"><span class="menu-iteam">
+                <img src="./images/Golden Retriver.avif" alt="Golden-Retrivers" class="menu-icon">
+                Golden-Retrivers
+            </span>
+            </a>
+            <a href="./pages/germen.html">
+            <span class="menu-iteam">
+                <img src="./images/GermanSheperd.avif" alt="German-Sheperd" class="menu-icon">
+                German-Sheperd
+            </span>
+            </a>
+            <a href="./pages/labrador.html">
+            <span class="menu-iteam">
+                <img src="./images/Labrador.avif" alt="labra-dor" class="menu-icon">
+                labra-dor
+            </span>
+            </a>
+            <a href="./pages/rotweiler.html">
+            <span class="menu-iteam">
+                <img src="./images/Rottweiler.avif" alt="rotweiler" class="menu-icon">
+                Rottweiler
+            </span>
+            </a>
+
+
+        </div>
+    </div>
+
 
 
    <h1 class="page-heading">
