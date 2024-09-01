@@ -1,0 +1,30 @@
+body{
+    background-color: blanchedalmond;
+}  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* Mobile Device */
+  @media screen and (max-width:500px) {
+
+
+}
+
+
+/* Tablet Device */
+@media screen and (min-width:501px) and (max-width:768px) {
+    
+}
+
+/* Desktop Device */
+@media screen and (min-width:769px) {
+    
+}
