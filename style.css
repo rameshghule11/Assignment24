@@ -74,9 +74,9 @@ flex-wrap: wrap;
 }
   
 .btn{
-    height: 50px;
-    margin: 40px;
+    height: 40px;
     align-items: center;
+    margin: 0px 50% 0px 50%;
 }
 
 .img-content1{
@@ -104,8 +104,8 @@ flex-wrap: wrap;
         font-size: 40px;
      }
 
-     .img1{
-        width: 300px;
+     .img{
+        width: 350px;
      }
 
      .img-content1{
